@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+	<meta charset="utf-8">
+	<title>hm4-2</title>
+</head>
+<body>
+	<script>
+		// Первая часть
+		var star = +prompt("Введите число", "");
+		 
+		function triangle(star) {
+			var triangle = "";
+			var res = "";
+		
+			for(i = 0; i < star; i++){
+    	        triangle += "*";
+    	        res += '\n' + triangle; 
+			}
+
+			return (res);
+		}
+		
+		alert(triangle(star));
+		
+		// Вторая часть
+		
+		function newFunction(a,b) {
+		  return a + b;
+		}
+
+		function f(a, b, c) {
+		  	a = a || 2;
+			b = b || 3;
+
+		if (typeof c === "function"){
+				return с();
+			} else {
+				function sum() {
+			    	return a + b;
+			    }
+				return sum();
+			}	
+		}
+
+		alert(f());
+						
+	
+		
+	</script>
+</body>
+</html>
+
